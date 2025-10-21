@@ -1,6 +1,6 @@
 public class Ex2 {
     public int maxNumber(int[] numbers){
-        int max = 0;
+        int max = Integer.MIN_VALUE;
         for(int num : numbers){
             if (num > max){
                 max = num;
@@ -19,5 +19,16 @@ public class Ex2 {
         }
 
         return min;
+    }
+
+    public int maxSum(int[] numbers){
+        int sum = 0;
+        for (int num : numbers){
+            if (num != minNumber(numbers)){
+                sum += num;
+            }
+        }
+
+        return sum;
     }
 }

@@ -5,5 +5,6 @@ public class Main {
 
         System.out.println("Max number: " + ex2.maxNumber(numbers));
         System.out.println("Min number: " + ex2.minNumber(numbers));
+        System.out.println("Max sum of n-1 numbers: " + ex2.maxSum(numbers));
     }
 }
