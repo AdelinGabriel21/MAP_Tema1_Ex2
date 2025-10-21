@@ -31,4 +31,15 @@ public class Ex2 {
 
         return sum;
     }
+
+    public int minSum(int[] numbers){
+        int sum = 0;
+        for (int num : numbers){
+            if (num != maxNumber(numbers)){
+                sum += num;
+            }
+        }
+
+        return sum;
+    }
 }
