@@ -9,4 +9,15 @@ public class Ex2 {
 
         return max;
     }
+
+    public int minNumber(int[] numbers){
+        int min = Integer.MAX_VALUE;
+        for(int num : numbers){
+            if (num < min){
+                min = num;
+            }
+        }
+
+        return min;
+    }
 }

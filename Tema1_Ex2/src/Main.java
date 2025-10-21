@@ -4,5 +4,6 @@ public class Main {
         Ex2 ex2 = new Ex2();
 
         System.out.println("Max number: " + ex2.maxNumber(numbers));
+        System.out.println("Min number: " + ex2.minNumber(numbers));
     }
 }
